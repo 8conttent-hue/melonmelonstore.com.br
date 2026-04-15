@@ -1,0 +1,42 @@
+---
+// About-J: Centered Minimal with Signature - Foco em pessoalidade e confiança
+interface Stat { value: string; label: string; }
+interface Props {
+  title: string;
+  desc: string;
+  image: string;
+  btnText: string;
+  btnLink: string;
+  stats: Stat[];
+}
+const { title, desc, btnText, btnLink } = Astro.props;
+---
+<section class="py-24 bg-white">
+  <div class="max-w-3xl mx-auto px-4 text-center">
+    <div class="mb-12 flex justify-center">
+       <div class="w-16 h-1 bg-primary rounded-full"></div>
+    </div>
+
+    <h2 class="text-4xl md:text-5xl font-black text-dark tracking-tighter mb-10 leading-tight italic">
+      {title}
+    </h2>
+
+    <p class="text-xl md:text-2xl text-gray-400 leading-relaxed font-medium mb-12 italic">
+      "{desc}"
+    </p>
+
+    <!-- Signature Area -->
+    <div class="flex flex-col items-center gap-4 mb-20">
+       <div class="text-5xl font-['Playfair_Display'] italic text-primary select-none transform -rotate-3 mb-2">
+         {title.split(' ')[0]} {title.split(' ')[1] || ''}
+       </div>
+       <div class="text-[10px] font-black uppercase tracking-[0.4em] text-gray-300">Responsável Técnico</div>
+    </div>
+
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+       <a href={btnLink} class="px-10 py-5 bg-dark text-white font-black rounded-2xl hover:bg-primary transition-all shadow-xl shadow-dark/10 uppercase tracking-widest text-[10px]">
+         {btnText}
+       </a>
+    </div>
+  </div>
+</section>

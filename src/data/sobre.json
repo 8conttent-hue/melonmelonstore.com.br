@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o MELONMELONSTORE"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "Sou Agatha, uma apaixonada por moda e chocólatra assumida. Esse blog é o meu espaço para explorar minha identidade e compartilhar com vocês minha jornada através do estilo e da beleza."
+  },
+  "content": "A MelonMelonStore é mais do que um blog, é uma plataforma para me conectar com você através de dicas de moda, tendências de beleza e muitas histórias pessoais. Aqui, o foco é ajudar você a encontrar seu estilo único e se sentir confiante em qualquer situação.",
+  "mission": "Minha missão é inspirar e empoderar todas as mulheres a abraçarem sua individualidade por meio da moda e da beleza.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

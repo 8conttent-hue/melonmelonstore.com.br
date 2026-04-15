@@ -1,0 +1,53 @@
+{
+  "name": "MELONMELONSTORE",
+  "slug": "melonmelonstore.com.br",
+  "description": "Olá! Eu sou Agatha, Amante de qualquer coisa relacionado a moda e chocólatra assumida. Eu comecei meu blog porque eu precisava descobrir quem era eu de verdade. E a melhor maneira que eu encontrei de fazer isso é falando sobre mim. Eu sempre adorei montar roupas, então decidi que um blog de moda era o melhor caminho e aqui estou eu. Eu ainda estou me acostumando com essa coisa de blog, dando pequenos passos no mundo on-line, uma postagem por semana. E, claro, muitas fotos no instagram.",
+  "url": "https://melonmelonstore.com.br",
+  "niche": "Moda e Beleza",
+  "keywords": "Ola Eu sou Agatha Amante de qualquer coisa relacionado a moda e",
+  "email": "contato@melonmelonstore.com.br",
+  "palette": "gold",
+  "colors": {
+    "primary": "#ca8a04",
+    "accent": "#92400e",
+    "dark": "#451a03"
+  },
+  "headerContrast": "light",
+  "font": "outfit",
+  "fontFamily": "'Outfit', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-J",
+    "hero": "Hero-H",
+    "features": "Features-C",
+    "about": "About-J",
+    "posts": "Posts-J",
+    "footer": "Footer-F",
+    "sobre": "Sobre-C",
+    "contato": "Contato-F"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}

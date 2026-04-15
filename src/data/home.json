@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "title": "MELONMELONSTORE — Bem-vindo à MelonMelonStore!",
+    "description": "Descubra o seu estilo único com a paixão de Agatha por moda."
+  },
+  "hero": {
+    "title": "Bem-vindo à MelonMelonStore!",
+    "subtitle": "Descubra o seu estilo único com a paixão de Agatha por moda.",
+    "btnText": "Explore agora",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "O que você encontrará aqui",
+    "items": [
+      {
+        "icon": "👗",
+        "title": "Looks Inspiradores",
+        "desc": "Dicas e ideias de combinações de roupas para brilhar em qualquer ocasião."
+      },
+      {
+        "icon": "💄",
+        "title": "Beleza em Foco",
+        "desc": "Tendências e tutoriais de maquiagem para realçar ainda mais sua beleza natural."
+      },
+      {
+        "icon": "📸",
+        "title": "Estilo nas Redes",
+        "desc": "Acompanhe meu dia a dia e looks no Instagram para se inspirar!"
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Agatha",
+    "desc": "Sou Agatha, uma apaixonada por moda e chocólatra assumida. Esse blog é o meu espaço para explorar minha identidade e compartilhar com vocês minha jornada através do estilo e da beleza.",
+    "stats": [
+      {
+        "value": "1",
+        "label": "Postagem por semana"
+      },
+      {
+        "value": "300",
+        "label": "Seguidores no Instagram"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}
